@@ -14,16 +14,16 @@ from sklearn.model_selection import (
     KFold,
 )
 
-from sklearn.tree import DecisionTreeClassifier
-from sklearn.metrics import confusion_matrix
-from sklearn.model_selection import GridSearchCV
-from sklearn.metrics import confusion_matrix
-
 from typing import Any
 from numpy.typing import NDArray
 
 import numpy as np
 import utils as u
+
+from sklearn.tree import DecisionTreeClassifier
+from sklearn.metrics import confusion_matrix
+from sklearn.model_selection import GridSearchCV
+from sklearn.metrics import confusion_matrix
 
 # Initially empty. Use for reusable functions across
 # Sections 1-3 of the homework
